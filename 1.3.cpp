@@ -6,5 +6,5 @@ int main()
 	cout << "int length:" << sizeof(int) << endl;
 	cout << "bool length:" << sizeof(bool) << endl;
 	cout << "float length:" << sizeof(float) << endl;
-	//cout << "void length:"<< sizeof(void) << endl;  voidÎª¿ÕÖµĞÍ£¬ÎŞ´¢´æ¿Õ¼ä
+	//cout << "void length:"<< sizeof(void) << endl;  voidä¸ºç©ºå€¼å‹æ— å‚¨å­˜ç©ºé—´
 }
