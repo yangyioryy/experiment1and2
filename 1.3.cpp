@@ -6,5 +6,5 @@ int main()
 	cout << "int length:" << sizeof(int) << endl;
 	cout << "bool length:" << sizeof(bool) << endl;
 	cout << "float length:" << sizeof(float) << endl;
-	//cout << "void length:"<< sizeof(void) << endl;
+	//cout << "void length:"<< sizeof(void) << endl;  void为空值型，无储存空间
 }
