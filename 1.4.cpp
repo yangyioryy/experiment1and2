@@ -4,15 +4,15 @@ using namespace std;
 int main()
 {
 	unsigned int testunint = 65534;
-	cout << "output in unsigned int 1 type:"<<oct<< testunint<< endl;//<<oct°Ë½øÖÆÊä³ö
-    cout << "output in char type:" <<dec<< static_cast<char>(testunint) << endl;//×¢Òâ½«Êı¾İ×ª»»»ØÊ®½øÖÆÊä³ö
-	cout << "output in short type:" << static_cast<short>(testunint) << endl;//ÎªÊ²Ã´½á¹ûÎª-2?:Êı¾İ·¢ÉúÁËÒç³ö£¬65534µÄ¶ş½øÖÆ±íÊ¾Îª1111111111111110£¬ÔÚshortÖĞµÚÒ»Î»±íÊ¾·ûºÅ£¬ËùÒÔ±íÊ¾Îª¸ºÊı£¬Æä¶ÔÓ¦µÄ¸ºÊı¼´Îª-2
+	cout << "output in unsigned int 1 type:"<<oct<< testunint<< endl;//<<octå…«è¿›åˆ¶è¾“å‡º
+        cout << "output in char type:" <<dec<< static_cast<char>(testunint) << endl;//æ³¨æ„å°†æ•°æ®è½¬æ¢å›åè¿›åˆ¶è¾“å‡º
+	cout << "output in short type:" << static_cast<short>(testunint) << endl;//ä¸ºä»€ä¹ˆç»“æœä¸º-2?:æ•°æ®å‘ç”Ÿäº†æº¢å‡ºï¼Œ65534çš„äºŒè¿›åˆ¶è¡¨ç¤ºä¸º1111111111111110ï¼Œåœ¨shortä¸­ç¬¬ä¸€ä½è¡¨ç¤ºç¬¦å·ï¼Œæ‰€ä»¥è¡¨ç¤ºä¸ºè´Ÿæ•°ï¼Œå…¶å¯¹åº”çš„è´Ÿæ•°å³ä¸º-2
 	cout << "output in int type:" << static_cast<int>(testunint) << endl;
 	cout << "output in double type:" << static_cast<double>(testunint) << endl;
 	cout << "output in double type:" << setprecision(4) << static_cast<double>(testunint) << endl;
-	cout << "output in Hex unsigned int type:" << hex << testunint << endl; //16½øÖÆÊä³ö
+	cout << "output in Hex unsigned int type:" << hex << testunint << endl; //16è¿›åˆ¶è¾“å‡º
 	float b = 3.2;
-	cout << static_cast<int>(b) << endl;//ÊµÊı×ª»»Îªint
+	cout << static_cast<int>(b) << endl;//å®æ•°è½¬æ¢ä¸ºint
 	system("pause");
 	return 0;
 }
